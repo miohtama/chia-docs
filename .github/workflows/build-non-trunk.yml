@@ -14,7 +14,7 @@ jobs:
     - name: "Install deps"
       run: |
         apt update
-        apt install python3 make g++ git openssl zip
+        apt install python3 make g++ git openssl zip -y
 
     - name: Checkout Code
       uses: actions/checkout@v2
